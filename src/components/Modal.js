@@ -62,6 +62,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 #modal{
-    background-color: var(--mainWhite);
+    background-color: #FDFCFB;
+   border: solid 1px #AF7D5F
+    
 }
 `

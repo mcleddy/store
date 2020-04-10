@@ -1,9 +1,9 @@
 :root{
-  --mainBlue:#2A2A72;
-  --lightBlue:#009ffd;
-  --mainWhite:#f3f3f3;
+  --mainBlue:#AF7D5F;
+  --lightBlue:#EFD5C4;
+  --mainWhite:#F7F2EE;
   --mainDark:#232528;
-  --mainYellow:#ffa400;
+  --mainYellow:#EFD5C4;
 }
 body{
   font-family: 'Oswald', sans-serif !important;

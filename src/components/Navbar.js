@@ -13,16 +13,10 @@ export default class Navbar extends Component {
             Creative Commons (Attribution 3.0 Unported);
             https://www.iconfinder.com/Makoto_msk */}
             <Link to="/">
-                <img src={logo} alt="store" className="navbar-brand"/>
+            <i className="fas fa-baby-carriage" id="baby-carraige"/>
             </Link>
-            <ul className="navbar-nav align-items-center">
-                <li className="nav-item ml-5">
-                    <Link to="/" className="nav-link">
-                        Products
-                    </Link>
-                </li>
-            </ul>
-            <Link to="/cart" className="ml-auto">
+
+            <Link to="/cart" className="ml-auto" id="nav-cart-btn">
                 <ButtonContainer>
                     <span className="mr-2">
                     <i className="fas fa-cart-plus"/>
@@ -37,9 +31,19 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
 background:var(--mainBlue);
+padding-top: 25px;
 .nav-link{
     color:var(--mainWhite) !important;
     font-size:1.3rem;
     text-transform:capitalize !important;
+
 }
+#nav-cart-btn{
+    
+}
+#baby-carraige{
+    color: var(--mainWhite);
+    font-size: xx-large
+}
+
 `
