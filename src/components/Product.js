@@ -5,10 +5,14 @@ import { ProductConsumer } from "../context";
 import PropTypes from "prop-types";
 export default class Product extends Component {
     render() {
-        const { id, title, img, price, inCart } = this.props.product;
+        const { id, title, img, price, catagory, inCart } = this.props.product;
+      
+      console.log(this.props.product.catagory)
         return (
             <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
-                <div className="card">
+                     <div className={`filterDiv ${this.props.product.catagory} `}>  
+                     <div className="card">
+              
                     <ProductConsumer>
                         {(value) => ( 
                         <div 
@@ -52,7 +56,12 @@ export default class Product extends Component {
                             <span className="mr-1">$</span>
                             {price}
                         </h5>
+                        <h5 className="text-blue font-italic mb-0">
+                            <span className="mr-1">$</span>
+                            {catagory}
+                        </h5>
                     </div>
+                </div>
                 </div>
             </ProductWrapper>
         );
@@ -65,6 +74,7 @@ Product.propTypes = {
         img: PropTypes.string,
         title: PropTypes.string,
         price: PropTypes.number,
+        catagory: PropTypes.string,
         inCart: PropTypes.bool
     }).isRequired
 };

@@ -8,19 +8,25 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Classes from "./components/Classes";
 
 function App() {
   return (
    <React.Fragment>
-   <Navbar/>
    <Switch>
-     <Route exact path="/" component={ProductList}/>
+     <Route  path="/products" component={ProductList}/>
+     <Route exact path ="/" component={Home}/>
      <Route path="/details" component={Details}/>
      <Route path="/cart" component={Cart}/>
+     <Route path="/classes" component={Classes}/>
      <Route component={Default}/>
    </Switch>
-   <Modal/>
+   <Modal/> 
+   <Footer/>
    </React.Fragment>
+  
   );
 }
 

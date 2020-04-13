@@ -33,7 +33,10 @@ class ProductProvider extends Component {
     getItem = (id) => {
         const product = this.state.products.find(item => item.id === id);
         return product;
+        
     };
+
+
 
     handleDetail = id => {
         const product = this.getItem(id);
@@ -160,24 +163,26 @@ class ProductProvider extends Component {
             };
         })
     }
+  
+    
 
-    render() {
-        return (
-            <ProductContext.Provider value={{
-                ...this.state,
-                handleDetail: this.handleDetail,
-                addToCart: this.addToCart,
-                openModal: this.openModal,
-                closeModal: this.closeModal,
-                increment: this.increment,
-                decrement: this.decrement,
-                removeItem: this.removeItem,
-                clearCart: this.clearCart
-            }}>
-                {this.props.children}
-            </ProductContext.Provider>
-        );
-    }
+render() {
+    return (
+        <ProductContext.Provider value={{
+            ...this.state,
+            handleDetail: this.handleDetail,
+            addToCart: this.addToCart,
+            openModal: this.openModal,
+            closeModal: this.closeModal,
+            increment: this.increment,
+            decrement: this.decrement,
+            removeItem: this.removeItem,
+            clearCart: this.clearCart
+        }}>
+            {this.props.children}
+        </ProductContext.Provider>
+    );
+}
 }
 
 const ProductConsumer = ProductContext.Consumer;

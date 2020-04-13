@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import { ProductConsumer } from "../context";
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
-
+import Navbar from "./Navbar";
 
 export default class Details extends Component {
     render() {
         return (
+            <React.Fragment>
+            <Navbar/>
             <ProductConsumer>
+                
                 {(value) => {
                     const { id, company, img, info, price, title, inCart }
                         = value.detailProduct;
@@ -47,7 +50,7 @@ export default class Details extends Component {
                                     </p>
                                     {/* buttons*/}
                                     <div>
-                                        <Link to="/">
+                                        <Link to="/products">
                                             <ButtonContainer>
                                                 Back to Products
                                         </ButtonContainer>
@@ -70,6 +73,7 @@ export default class Details extends Component {
                     )
                 }}
             </ProductConsumer>
+            </React.Fragment>
         );
     }
 }

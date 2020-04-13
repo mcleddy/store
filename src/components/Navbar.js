@@ -1,30 +1,45 @@
 import React, { Component } from "react"
-import {Link} from "react-router-dom";
-import logo from "../logo.svg";
+import { Link } from "react-router-dom";
 import styled from "styled-components"
-import {ButtonContainer} from "./Button";
+import { ButtonContainer } from "./Button";
 
 export default class Navbar extends Component {
     render() {
         return (
-         <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
-            { /* 
-            https://www.iconfinder.com/icons/1243689/call_phone_icon
-            Creative Commons (Attribution 3.0 Unported);
-            https://www.iconfinder.com/Makoto_msk */}
-            <Link to="/">
-            <i className="fas fa-baby-carriage" id="baby-carraige"/>
-            </Link>
-
-            <Link to="/cart" className="ml-auto" id="nav-cart-btn">
-                <ButtonContainer>
-                    <span className="mr-2">
-                    <i className="fas fa-cart-plus"/>
-                    </span>
-                    My cart
+            <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
+                <Link to="/" className="ml-auto" id="home">
+                    <ButtonContainer>
+                        <span className="mr-1">
+                            <i className="fas fa-home" />
+                        </span>
+                    </ButtonContainer>
+                </Link>
+                <Link to="/products" className="ml-auto" id="store">
+                    <ButtonContainer>
+                        <span className="mr-2">
+                            <i className="fas fa-store" />
+                        </span>
+                    Our Shop
                 </ButtonContainer>
-            </Link>
-         </NavWrapper>
+                </Link>
+                <Link to="/classes" className="ml-auto" id="store">
+                    <ButtonContainer>
+                        <span className="mr-2">
+                            <i className="fas fa-store" />
+                        </span>
+                    Classes
+                </ButtonContainer>
+                </Link>
+
+                <Link to="/cart" className="ml-auto" id="nav-cart-btn">
+                    <ButtonContainer>
+                        <span className="mr-2">
+                            <i className="fas fa-cart-plus" />
+                        </span>
+                    My cart
+     </ButtonContainer>
+                </Link>
+            </NavWrapper>
         );
     }
 }
@@ -32,18 +47,26 @@ export default class Navbar extends Component {
 const NavWrapper = styled.nav`
 background:var(--mainBlue);
 padding-top: 25px;
+outline: 2px solid black;
+outline-offset: 2px;
+
 .nav-link{
     color:var(--mainWhite) !important;
     font-size:1.3rem;
     text-transform:capitalize !important;
-
+    float: right;
 }
-#nav-cart-btn{
-    
-}
-#baby-carraige{
+#store{
     color: var(--mainWhite);
-    font-size: xx-large
+    font-size: xx-large;
+    width:150px !important!;    
+}
+
+
+#home{
+    text-align:left
+    width: 150px;
+    margin-left: 50px !important;
 }
 
 `
