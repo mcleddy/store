@@ -62,6 +62,7 @@ border: 0.1rem solid var(--mainDark) !important;
 #home-title{
   margin-left:15%;
   margin-top:5%;
+
 }
 .tagline{
   text-align: right;
@@ -69,22 +70,20 @@ border: 0.1rem solid var(--mainDark) !important;
 }
 
 .home-featured-container{
-  height: 485px; 
   background-color: var(--mainWhite);
   margin: 5%;
-  letter-spacing: 3px;
-  word-spacing: 5px;
-  line-height: 1.9;
+  font-size: xx-large;
  }
 .aboutUsTitle{
   font-family: 'Permanent Marker', cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 2%;
+
 }
 .cite{
-  text-align: right;
+  text-align: right; 
+   margin-bottom: 2%;
 }
 .home-about-container{
  height: 650px;
@@ -94,41 +93,9 @@ background-position: center;
  background-size: cover;
  border-top: black 1px solid;
  }
-.hac-1{
-  border: solid 5px ;
-  text-align: left;
-  border-radius: 1%;
-  float: left;
-  margin: auto; 
-  margin-top: 4%;
-  outline: 5px var(--mainBlue) solid ;
-  outline-offset:  30px;
-  
-}
-.hac-2{
-  border: solid 5px ;
-  text-align: left;
-  border-radius: 1%;
-  float: left;
-  margin: auto; 
-  margin-top: 4.2%;
-  outline: 5px var(--mainBlue) solid ;
-  outline-offset:  -30px;
-  padding: 30px;
 
-}
-.hac-3{
-  border: solid 5px ;
-  text-align: left;
-  border-radius: 1%;
-  float: left;
-  margin: auto; 
-  margin-top: 4.2%;
-  outline: 5px var(--mainBlue) solid ;
-  outline-offset:  -30px;
-  padding: 30px;
 
-}
+
 
 .emailInput{
   width: 100%;
@@ -143,7 +110,6 @@ background-position: center;
   text-align: right;
 }
 .home-email-container{
-  height: 385px; 
   background-color: var(--mainWhite);
   margin: 5%;
   letter-spacing: 3px;
@@ -173,10 +139,14 @@ background-position: center;
    text-align: center;
    margin: 30px;
  }
+ .classesBlerb{
+  margin: 30px;
+ }
  .classListing{
    margin-top: 50px;
    margin-bottom: 50px;
    color: var(--mainDark);
+   margin-left: 10%;
  }
 
  .announcements{
@@ -187,6 +157,7 @@ background-position: center;
    margin-right: 10px;
    outline: var(--mainWhite) 1px solid;
    outline-offset: -3px ;
+   margin-left: 8%;
  }
  .announcement{
    margin: 10px;
@@ -203,3 +174,14 @@ margin-left: 15%;
 outline: var(--mainWhite) 1px solid;
 outline-offset: -3px ;
   }
+
+ 
+
+  .triangle-down {
+       background-image: url(https://artscenter.okstate.edu/images/Classes/Ceramics/open_studio_.jpg);
+       width: 100;
+    height: 100;
+    border-left: 750px solid transparent;
+    border-right: 750px solid transparent;
+    border-top: 100px solid var(--mainYellow);
+  } 
