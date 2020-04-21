@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import { Jumbotron } from "reactstrap"
-import Email from "./Email"
+import { Jumbotron } from "reactstrap";
+import { Link } from "react-router-dom";
+import Email from "./Email";
+import { ButtonContainer } from "./Button";
+import styled from "styled-components"
 export default class Home extends Component {
     render() {
 
@@ -10,6 +13,51 @@ export default class Home extends Component {
                 <div className="home-container">
                     <div className="row">
                         <div className="col-12">
+                            
+            <div className="navbar navbar-expand-sm navbar-dark px-sm-5">
+                <Link to="/" className="ml-auto" id="home">
+                    <ButtonContainer>
+                        <span className="mr-2">
+                            <i className="fas fa-home" />
+                        </span>
+                            Home
+                        </ButtonContainer>
+                </Link>
+                <div className="navItems">
+
+
+                    <Link to="/products" className="ml-auto" id="store">
+                        <ButtonContainer>
+                            <span className="mr-2">
+                                <i className="fas fa-store" />
+                            </span>
+                    Our Shop
+                </ButtonContainer>
+                    </Link>
+
+
+
+                    <Link to="/classes" className="ml-auto" id="store">
+                        <ButtonContainer>
+                            <span className="mr-2">
+                                <i className="fas fa-store" />
+                            </span>
+                    Classes
+                </ButtonContainer>
+                    </Link>
+
+                </div>
+                <Link to="/cart" className="ml-auto" id="nav-cart-btn">
+                    <ButtonContainer>
+                        <span className="mr-2">
+                            <i className="fas fa-cart-plus" />
+                        </span>
+                    My cart
+     </ButtonContainer>
+                </Link>
+
+            </div>
+
                             <div className="text-title">
                                 <h1 id="home-title" >Welcome To creations in clay</h1>
                             </div>

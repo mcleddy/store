@@ -146,7 +146,7 @@ background-position: center;
    margin-top: 50px;
    margin-bottom: 50px;
    color: var(--mainDark);
-   margin-left: 10%;
+   margin-left: 8%;
  }
 
  .announcements{
@@ -160,7 +160,7 @@ background-position: center;
    margin-left: 8%;
  }
  .announcement{
-   margin: 10px;
+   margin: 20px;
  }
 
  .classesPic1{
@@ -177,11 +177,13 @@ outline-offset: -3px ;
 
  
 
-  .triangle-down {
-       background-image: url(https://artscenter.okstate.edu/images/Classes/Ceramics/open_studio_.jpg);
+  .triangle-down 
+{background: var(--mainBlue);
        width: 100;
-    height: 100;
+    height: 200;
+    margin-top: 65px;
     border-left: 750px solid transparent;
     border-right: 750px solid transparent;
     border-top: 100px solid var(--mainYellow);
   } 
+ 

@@ -5,32 +5,42 @@ import { ButtonContainer } from "./Button";
 
 export default class Navbar extends Component {
     render() {
+
         return (
+
             <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
                 <Link to="/" className="ml-auto" id="home">
                     <ButtonContainer>
-                        <span className="mr-1">
+                        <span className="mr-2">
                             <i className="fas fa-home" />
                         </span>
-                    </ButtonContainer>
+                            Home
+                        </ButtonContainer>
                 </Link>
-                <Link to="/products" className="ml-auto" id="store">
-                    <ButtonContainer>
-                        <span className="mr-2">
-                            <i className="fas fa-store" />
-                        </span>
+                <div className="navItems">
+
+
+                    <Link to="/products" className="ml-auto" id="store">
+                        <ButtonContainer>
+                            <span className="mr-2">
+                                <i className="fas fa-store" />
+                            </span>
                     Our Shop
                 </ButtonContainer>
-                </Link>
-                <Link to="/classes" className="ml-auto" id="store">
-                    <ButtonContainer>
-                        <span className="mr-2">
-                            <i className="fas fa-store" />
-                        </span>
+                    </Link>
+
+
+
+                    <Link to="/classes" className="ml-auto" id="store">
+                        <ButtonContainer>
+                            <span className="mr-2">
+                                <i className="fas fa-store" />
+                            </span>
                     Classes
                 </ButtonContainer>
-                </Link>
+                    </Link>
 
+                </div>
                 <Link to="/cart" className="ml-auto" id="nav-cart-btn">
                     <ButtonContainer>
                         <span className="mr-2">
@@ -39,6 +49,7 @@ export default class Navbar extends Component {
                     My cart
      </ButtonContainer>
                 </Link>
+
             </NavWrapper>
         );
     }
@@ -46,9 +57,13 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
 background:var(--mainBlue);
-padding-top: 25px;
-outline: 2px solid black;
-outline-offset: 2px;
+position:fixed;
+z-index: 2;
+margin-top: 0px;
+width:100%;
+.navItems{
+    align-items: left !important; 
+}
 
 .nav-link{
     color:var(--mainWhite) !important;
@@ -60,8 +75,12 @@ outline-offset: 2px;
     color: var(--mainWhite);
     font-size: xx-large;
     width:150px !important!;    
+    float: left;
 }
 
+button{
+border-color: var(--mainBlue)
+}
 
 #home{
     text-align:left
