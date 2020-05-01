@@ -98,7 +98,7 @@ const ProductWrapper = styled.div`
     }
 }
 .img-container{ 
-    background-color: #F7F4F2;
+    background-color: white;
     position: relative;
     overflow: hidden;
 }

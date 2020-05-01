@@ -2,10 +2,10 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel - Black",
-    img: "img/terracotaBowl.jpg",
+    title: "15 in. Round Terra Cotta Concave Clay Vase",
+    img: "img/product-1.jpg",
     price: 10.00,
-    company: "GOOGLE",
+    company: "Lorem ipsum dolor",
     catagory:"a",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -15,10 +15,10 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Samsung S7",
+    title: "10 in. Round Terra Cotta Clay Vase",
     img: "img/product-2.jpg",
     price: 16.00,
-    company: "SAMSUNG",
+    company: "Lorem ipsum dolor",
     catagory:"a",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -28,10 +28,10 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "HTC 10 - Black",
-    img: "img/images.jpg",
+    title: "17 in. Round Terra Cotta Clay Cylinder",
+    img: "img/product-3.jpg",
     price: 8.00,
-    company: "htc",
+    company: "Lorem ipsum dolor",
     catagory:"a",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -41,10 +41,10 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "HTC 10 - White",
-    img: "img/product-4.png",
+    title: "14 in. Round Terra Cotta Narrow Neck Clay Pot",
+    img: "img/product-4.jpg",
     price: 18.00,
-    company: "htc",
+    company: "Lorem ipsum dolor",
     catagory:"b",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -54,10 +54,10 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "HTC Desire 626s",
-    img: "img/product-5.png",
+    title: "14 in. Round Terra Cotta Narrow Neck Clay Pot",
+    img: "img/product-5.jpg",
     price: 24.00,
-    company: "htc",
+    company: "Lorem ipsum dolor",
     catagory:"b",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -67,10 +67,10 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Vintage Iphone",
-    img: "img/product-6.png",
+    title: "12.5 in. Plain Terra Cotta Window Box",
+    img: "img/product-6.jpg",
     price: 17.00,
-    company: "apple",
+    company: "Lorem ipsum dolor",
     catagory:"c",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -80,10 +80,10 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "Iphone 7",
-    img: "img/product-7.png",
+    title: "21 in. Terra Cotta Handled Urn",
+    img: "img/product-7.jpg",
     price: 30.00,
-    company: "apple",
+    company: "Lorem ipsum dolor",
     catagory:"c",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
@@ -93,10 +93,10 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Smashed Iphone",
-    img: "img/product-8.png",
+    title: "15-1/2 in. Round Terra Cotta Clay Cactus Dish",
+    img: "img/product-8.jpg",
     price: 2.00,
-    company: "apple",
+    company: "Lorem ipsum dolor",
     catagory:"b",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
