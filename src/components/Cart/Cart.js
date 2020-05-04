@@ -10,7 +10,7 @@ export default class Cart extends Component {
     render() {
         return (
 
-            <section>
+            <div className="cartPage">
                 <Navbar/>
                 <ProductConsumer>
                     {value => {
@@ -30,7 +30,8 @@ export default class Cart extends Component {
                         }
                     }}
                 </ProductConsumer>              
-            </section>
+            </div>
+
         );
     }
 }

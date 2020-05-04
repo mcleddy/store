@@ -57,7 +57,7 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
 background:var(--mainBlue);
-position:fixed;
+
 z-index: 2;
 margin-top: 0px;
 width:100%;
