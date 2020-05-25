@@ -10,7 +10,7 @@ export default class Home extends Component {
 
         return (
             <React.Fragment>
-
+<Navbar/>
                 <div className="home-container">
                     <div className="row">
                         <div className="col-12">
