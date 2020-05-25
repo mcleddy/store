@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Product from "./Product";
 import Title from "./Title";
 import { ProductConsumer } from "../context";
-import Footer from "./Footer";
 import Navbar from "./Navbar"
 export default class ProductList extends Component {
 
