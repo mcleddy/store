@@ -1,16 +1,11 @@
 import React, { Component } from "react";
-import { Jumbotron } from "reactstrap";
 import { Link } from "react-router-dom";
 import Email from "./Email";
-import { ButtonContainer } from "./Button";
-import styled from "styled-components";
-import Navbar from "./Navbar"
 export default class Home extends Component {
     render() {
 
         return (
             <React.Fragment>
-<Navbar/>
                 <div className="home-container">
                     <div className="row">
                         <div className="col-12">
