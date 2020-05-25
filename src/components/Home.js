@@ -10,34 +10,7 @@ export default class Home extends Component {
                 <div className="home-container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="navbar navbar-expand-sm navbar-dark px-sm-5">
-                                <div className="homePageBtn">
-                                    <Link to="/" className="ml-auto" id="home">
-                                        <span className="mr-2">
-                                            <i className="fas fa-home" />
-                                        </span>
-                                              Home
-                                    </Link>
-                                </div>
-                                <div className="homePageBtn">
-                                    <Link to="/products" className="ml-auto" id="store">
-                                        <span className="mr-2">
-                                            <i className="fas fa-store" />
-                                        </span>
-                                        Our Shop
-                                    </Link>
-                                </div>
-
-                                <div className="homePageBtn">
-                                    <Link to="/classes" className="ml-auto" id="store">
-                                        <span className="mr-2">
-                                            <i className="fas fa-store" />
-                                        </span>
-                                    Classes
-                                    </Link>
-                                </div>
-
-                            </div>
+                    <Navbar/>
 
                             <div className="text-title">
                                 <h1 id="home-title" >Welcome To creations in clay</h1>
