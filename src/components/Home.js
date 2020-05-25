@@ -16,7 +16,7 @@ export default class Home extends Component {
                                             <i className="fas fa-home" />
                                         </span>
                                               Home
-                                    </Link>                    
+                                    </Link>
                                 </div>
                                 <div className="homePageBtn">
                                     <Link to="/products" className="ml-auto" id="store">
@@ -35,13 +35,13 @@ export default class Home extends Component {
                                         Classes
                                     </Link>
                                 </div>
-                              
+
                             </div>
 
                             <div className="text-title">
                                 <h1 id="home-title" >Welcome To creations in clay</h1>
                             </div>
-                            <div className="tagline"><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</h3></div>
+                            <div className="tagline"><h3> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</h3></div>
                         </div>
                     </div>
                 </div>
