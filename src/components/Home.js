@@ -32,7 +32,7 @@ export default class Home extends Component {
                                         <span className="mr-2">
                                             <i className="fas fa-store" />
                                         </span>
-                                        Classes
+                                    Classes
                                     </Link>
                                 </div>
 
@@ -41,7 +41,7 @@ export default class Home extends Component {
                             <div className="text-title">
                                 <h1 id="home-title" >Welcome To creations in clay</h1>
                             </div>
-                            <div className="tagline"><h3> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</h3></div>
+                            <div className="tagline"><h3> lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem</h3></div>
                         </div>
                     </div>
                 </div>
