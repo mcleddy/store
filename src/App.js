@@ -10,11 +10,12 @@ import Modal from "./components/Modal";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Classes from "./components/Classes";
-
+import Navbar from "./components/Navbar";
 function App() {
   return (
    <React.Fragment>
    <Switch>
+     <Navbar/>
      <Route  path="/products" component={ProductList}/>
      <Route exact path ="/" component={Home}/>
      <Route path="/details" component={Details}/>
