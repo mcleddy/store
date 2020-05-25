@@ -14,7 +14,6 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
    <React.Fragment>
-   <Navbar/>
    <Switch>  
      <Route  path="/products" component={ProductList}/>
      <Route exact path ="/" component={Home}/>

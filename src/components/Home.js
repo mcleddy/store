@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Email from "./Email";
+import Navbar from "./Navbar"
 export default class Home extends Component {
     render() {
 
