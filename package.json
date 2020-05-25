@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "heroku": "^7.41.1",
+    "jquery": "^3.5.1",
+    "node": "^14.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-paypal-express-checkout": "^1.0.5",
